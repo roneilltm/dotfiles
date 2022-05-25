@@ -7,3 +7,12 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 # NOTE: On Q3 2021, Le Wagon decided to change the Web Dev curriculum default text editor
 alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' && code ."
+
+# git shortcuts
+alias ggpull="git pull origin master"
+alias gpo="git push origin"
+alias ggpullall="find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} pull \;"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias gcm="git commit -m"
+alias gcom="git checkout master"

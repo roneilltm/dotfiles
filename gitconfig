@@ -53,5 +53,10 @@
 [init]
   defaultBranch = master
 [user]
-	email = roneill@totallymoney.com
-	name = Rory O'Neill
+	email = 102523548+roneilltm@users.noreply.github.com
+	name = roneilltm
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
